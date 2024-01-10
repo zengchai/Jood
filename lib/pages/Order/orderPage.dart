@@ -501,6 +501,11 @@ class _OrderPageState extends State<OrderPage> {
                                   ),
                                   if (!isAdmin)
                                     ElevatedButton(
+                                      style: ButtonStyle(
+                                    backgroundColor: MaterialStateProperty.all<Color>(Color(0xFF3C312B).withOpacity(0.75),),
+    foregroundColor: MaterialStateProperty.all<Color>(Color(0xFFFFFFCC)),
+    minimumSize: MaterialStateProperty.all<Size>(Size(100, 40)),
+    ),
                                       onPressed: status != 'Preparing'
                                           ? () async {
                                               bool orderExists =

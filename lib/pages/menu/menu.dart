@@ -209,6 +209,11 @@ class _CategoryMenuState extends State<MenuPage> {
           ),
           actions: [
             ElevatedButton(
+              style: ButtonStyle(
+                backgroundColor: MaterialStateProperty.all<Color>(Color(0xFF3C312B).withOpacity(0.75),),
+                foregroundColor: MaterialStateProperty.all<Color>(Color(0xFFFFFFCC)),
+                minimumSize: MaterialStateProperty.all<Size>(Size(60, 40)),
+              ),
               onPressed: () {
                 Navigator.of(context).pop(); // Close the dialog
               },

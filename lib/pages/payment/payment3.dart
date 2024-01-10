@@ -78,9 +78,13 @@ class _ReceiptState extends State<Receipt> {
 
       return Scaffold(
         appBar: AppBar(
-          backgroundColor: Color(0xFF00000),
+          backgroundColor: Color(0xFF3C312B).withOpacity(0.8),
           automaticallyImplyLeading: false,
           title: Text('Receipt'),
+          iconTheme: IconThemeData(
+          color: Colors.white, // Set the color you want for the back button
+        ),
+          elevation: 0.0,
           actions: [
             IconButton(
               icon: Icon(

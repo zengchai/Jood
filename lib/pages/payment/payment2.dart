@@ -81,7 +81,19 @@ class _MethodPageState extends State<MethodPage> {
     return Scaffold(
       backgroundColor: Colors.brown[50],
       appBar: AppBar(
-        backgroundColor: Color(0xFF00000),
+        automaticallyImplyLeading: false,
+        backgroundColor: Color(0xFF3C312B).withOpacity(0.8),
+        leading: IconButton(
+          icon: Icon(Icons.arrow_back),
+          onPressed: () {
+            Navigator.pop(context);
+          },
+        ),
+        iconTheme: IconThemeData(
+          color: Colors.white, // Set the color you want for the back button
+        ),
+        elevation: 0.0,
+        title: Text('PAYMENT', style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
       ),
       body: Padding(
         padding: const EdgeInsets.all(15.0),
