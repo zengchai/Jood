@@ -34,3 +34,8 @@
   Email: admin1@gmail.com
   Password: joodadmin
 
+  User
+  Email: user1@gmail.com
+  Password: jooduser
+
+  *You may create an account for yourself by clicking the sign up button*
