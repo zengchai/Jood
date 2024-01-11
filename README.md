@@ -1,4 +1,4 @@
-# JOOD
+  # JOOD
 
   JOOD is a food ordering platform that ensures delicious food to the buyer with an affordable cost.
 
@@ -27,3 +27,10 @@
   2. Open it from your file manager
   3. Install the application
   4. Enjoy
+
+  ## Acount detail
+
+  Admin
+  Email: admin1@gmail.com
+  Password: joodadmin
+
